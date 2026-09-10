@@ -1,29 +1,34 @@
 # PlacementHub — Campus Placement & Internship Management System
 
-PlacementHub is a full-stack Web Application (MERN Stack) designed to streamline the campus recruitment process for educational institutes. It bridges the gap between **Students**, **Recruiters / Companies**, and the **Institute Placement Cell (TPO)** through role-based access control, eligibility filtering, application tracking, and recruiter verification workflows.
+## Author
 
----
+| Roll No.   | Name               | GitHub username |
+| ---------- | ------------------ | --------------- |
+| 24ESKCS010 | Abhay Kumar Sharma | 3005Abhay3005   |
 
-## 🚀 Key Features
+## About
 
-### 🎓 1. Student Portal
-* **Profile Management**: Build a comprehensive academic & professional profile (Roll Number, Branch, CGPA, 10th/12th percentage, Skills, Resume link, LinkedIn & GitHub profiles).
-* **Eligibility-Based Opportunities**: Browse job & internship opportunities automatically filtered based on student's branch, CGPA, and deadline.
-* **One-Click Application**: Apply directly to eligible job listings after completing profile setup.
-* **Application Tracker**: Real-time status tracking for applied jobs (`Applied`, `Shortlisted`, `Selected`, `Rejected`).
+PlacementHub is a Campus Placement and Internship Management System designed to streamline the recruitment process for educational institutes. The application aims to connect students, recruiters, and the institute placement cell through role-based portals, eligibility-based opportunities, application tracking, and recruiter verification workflows.
 
-### 💼 2. Recruiter Portal
-* **Company Onboarding**: Register company details and HR contact information.
-* **Verification Workflow**: Accounts remain in pending state until reviewed and approved by the Institute Placement Cell.
-* **Job & Internship Posting**: Post detailed job/internship openings with specific eligibility criteria (Minimum CGPA, Target Branches, Stipend/CTC, Application Deadline).
-* **Applicant Management**: View detailed applicant profiles for posted listings and update candidate hiring stages (`Shortlisted`, `Selected`, `Rejected`).
-* **Active Status Control**: Toggle opportunities active/inactive as needed.
+The current version contains the frontend implementation developed for the FSD Lab. The project will be further developed into a full-stack MERN application.
 
-### 🏛️ 3. Institute / TPO Portal
-* **Analytics Dashboard**: Real-time stats on total students, placement rate, active recruiters, pending approvals, and total selections.
-* **Recruiter Verification**: Review and approve or reject newly registered recruiter profiles.
-* **Student Directory**: View all registered students and their placement readiness.
-* **Centralized Application Monitoring**: Oversee all student applications and recruitment progress across all companies.
+## Tech stack
 
----
+* Frontend: HTML, CSS, JavaScript, jQuery
+* Backend: Planned — Node.js and Express
+* Database: Planned — MongoDB
 
+## Running locally
+
+```bash
+make install
+make run
+```
+
+## Live URL
+
+Add once M5 is done. Until then, leave as is.
+
+## Health endpoint
+
+`GET /health` returns the running commit SHA. See `Makefile` and the milestone sheet for why this is required.
