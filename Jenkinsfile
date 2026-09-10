@@ -13,5 +13,11 @@ pipeline {
                 bat 'npm test'
             }
         }
+
+        stage('Build') {
+            steps {
+                bat 'echo Build completed successfully'
+            }
+        }
     }
 }
