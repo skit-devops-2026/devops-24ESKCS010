@@ -35,3 +35,6 @@ Add once M5 is done. Until then, leave as is.
 
 ## Development
 Project documentation is updated as the application evolves.
+
+## Project Status
+The frontend implementation is currently under development, with backend integration planned for future development.
