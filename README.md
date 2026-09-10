@@ -38,3 +38,6 @@ Project documentation is updated as the application evolves.
 
 ## Project Status
 The frontend implementation is currently under development, with backend integration planned for future development.
+
+## Development Notes
+The project is being developed incrementally, with version control and CI practices maintained throughout development.
